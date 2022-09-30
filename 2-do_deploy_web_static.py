@@ -7,7 +7,7 @@ from datetime import datetime
 from os.path import exists, basename, getsize
 
 
-env.hosts = ['18.212.205.195', '50.17.11.48']
+env.hosts = ['35.153.143.27', '34.238.190.223']
 
 
 @runs_once
