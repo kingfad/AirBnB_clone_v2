@@ -43,7 +43,7 @@ def message_number(n):
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def template_number(n):
     """Function that returns a template"""
-    return render_template('5-number.html', number=n)
+    return render_template('5-number.html', n=n)
 
 
 if __name__ == '__main__':
